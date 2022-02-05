@@ -20,7 +20,7 @@ def _extract():
     nome = Variable.get("nome")
     print(nome)
 
-with DAG( "03_variables",
+with DAG( "_03_variables",
           description="Testes com variáveis. Olhar os comentários no início do código.", 
           start_date=datetime(2022,1,1), 
           schedule_interval="@daily",

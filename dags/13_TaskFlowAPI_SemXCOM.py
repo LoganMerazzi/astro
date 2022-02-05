@@ -52,8 +52,8 @@ def process():
 #    )
 
 # A chamada agora passar a ser como uma chamada de função. O nome da função é o dag_id
-def TaskFlowAPI_SemXCOM():
+def _13_TaskFlowAPI_SemXCOM():
     extract() >> process()
 
 
-TaskFlowAPI_SemXCOM = TaskFlowAPI_SemXCOM()
+TaskFlowAPI_SemXCOM = _13_TaskFlowAPI_SemXCOM()

@@ -23,7 +23,7 @@ def _process(ti):
     pessoa = ti.xcom_pull(task_ids="extract")
     print(pessoa["nome"])
 
-with DAG( "12_XCOMS_MultipleValues",
+with DAG( "_12_XCOMS_MultipleValues",
           description="Usando XCOMs. Olhar os comentários no início do código.", 
           start_date=datetime(2022,1,1), 
           schedule_interval="@daily",

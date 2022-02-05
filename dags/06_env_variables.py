@@ -29,7 +29,7 @@ def _extract(pessoa_nome, pessoa_idade):
     print(pessoa_nome)
     print(pessoa_idade)
 
-with DAG( "06_env_variables",
+with DAG( "_06_env_variables",
           description="Testes com variáveis de ambiente. Olhar os comentários no início do código.", 
           start_date=datetime(2022,1,1), 
           schedule_interval="@daily",

@@ -39,7 +39,7 @@ def _extract(pessoa_nome, pessoa_idade):
     print(pessoa_nome)
     print(pessoa_idade)
 
-with DAG( "09_templating_customOperator",
+with DAG( "_09_templating_customOperator",
           description="Testes com templating. Olhar os comentários no início do código.", 
           start_date=datetime(2022,1,1), 
           schedule_interval="@daily",

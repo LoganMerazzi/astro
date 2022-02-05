@@ -5,7 +5,7 @@
 from airflow import DAG
 from datetime import datetime, timedelta
 
-with DAG( "02_backfilling",
+with DAG( "_02_backfilling",
           description="Para executar o backfilling, deve ser realizado via CLI (ver o comentário no código)", 
           start_date=datetime(2022,1,1), 
           schedule_interval="@daily",

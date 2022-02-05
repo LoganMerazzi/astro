@@ -52,7 +52,7 @@ def process(nome):
 #    )
 
 # Para a construção da dependência, basta chamar as funções como parâmetros
-def TaskFlowAPI_XCOMArgs():
+def _14_TaskFlowAPI_XCOMArgs():
     process(extract())
 
-TaskFlowAPI_XCOMArgs = TaskFlowAPI_XCOMArgs()
+TaskFlowAPI_XCOMArgs = _14_TaskFlowAPI_XCOMArgs()

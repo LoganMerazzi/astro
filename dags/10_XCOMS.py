@@ -30,7 +30,7 @@ def _process(ti):
     nome = ti.xcom_pull(key="nome", task_ids="extract")
     print(nome)
 
-with DAG( "10_XCOMS",
+with DAG( "_10_XCOMS",
           description="Usando XCOMs. Olhar os comentários no início do código.", 
           start_date=datetime(2022,1,1), 
           schedule_interval="@daily",

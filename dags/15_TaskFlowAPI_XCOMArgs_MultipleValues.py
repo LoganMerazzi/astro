@@ -48,8 +48,9 @@ def process(nome, idade):
       catchup=False,
       max_active_runs=1
       )
-def TaskFlowAPI_XCOMArgs_MultipleValues():
+
+def _15_TaskFlowAPI_XCOMArgs_MultipleValues():
     dadosPessoa = extract()
     process(dadosPessoa['nome'], dadosPessoa['idade'])
 
-TaskFlowAPI_XCOMArgs_MultipleValues = TaskFlowAPI_XCOMArgs_MultipleValues()
+TaskFlowAPI_XCOMArgs_MultipleValues = _15_TaskFlowAPI_XCOMArgs_MultipleValues()

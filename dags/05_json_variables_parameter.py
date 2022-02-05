@@ -20,7 +20,7 @@ def _extract(pessoa_nome, pessoa_idade):
     print(pessoa_nome)
     print(pessoa_idade)
 
-with DAG( "05_json_variables_parameter",
+with DAG( "_05_json_variables_parameter",
           description="Testes com variáveis. Olhar os comentários no início do código.", 
           start_date=datetime(2022,1,1), 
           schedule_interval="@daily",

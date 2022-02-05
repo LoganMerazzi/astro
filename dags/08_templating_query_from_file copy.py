@@ -31,7 +31,7 @@ def _extract(pessoa_nome, pessoa_idade):
     print(pessoa_nome)
     print(pessoa_idade)
 
-with DAG( "08_templating_query_from_file",
+with DAG( "_08_templating_query_from_file",
           description="Testes com templating. Olhar os comentários no início do código.", 
           start_date=datetime(2022,1,1), 
           schedule_interval="@daily",
